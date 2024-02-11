@@ -1,0 +1,65 @@
+.profile-heading {
+    color:#333;
+    background-color:gold;
+    padding:10px;
+    border-radius:5px;
+}
+
+.sidebar {
+    width:200px;
+    background-color:#333;
+    color:white;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+}
+.sidebar a {
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:5px;
+    transition:background-color 0.3s;
+}
+.sidebar a:hover{
+    background-color:#555;
+}
+.profile-link {
+    margin-bottom: 20px;
+}
+.profile-link a {
+    margin-right:10px;
+    text-decoration:none;
+    color:#007bff;
+}
+.company-details-form {
+    max-width:400px;
+    margin-top:20px;
+}
+.company-details-form label {
+    display:block;
+    margin-bottom:10px;
+    color:white;
+}
+.company-details-form input {
+    width:100%;
+    padding:8px;
+    margin-bottom:15px;
+    box-sizing:border-box;
+}
+.company-details-form button {
+    background-color:#007bff;
+    color:white;
+    padding:10px;
+    border: solid 1px #007bff;
+    border-radius:5px;
+    cursor:pointer;
+}
+.company-details-form button:hover {
+    background-color: white;
+    color:#007bff;
+}
+
+.sidebar a.active {
+    background-color:#ddd;
+}

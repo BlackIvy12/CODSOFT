@@ -1,0 +1,63 @@
+body {
+    background-color:black;
+    color:white;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 { 
+color: gold;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display:block;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+select {
+    width:100%;
+    padding:8px;
+    margin-bottom:15px;
+    box-sizing:border-box;
+}
+.button-container {
+    display:flex;
+    justify-content:space-between;
+}
+
+ .back {
+    background-color: gold;
+    color:black;
+    padding:10px;
+    border-radius:5px;
+    cursor:pointer;
+    width: 30%;
+    margin-bottom:20px;
+ }
+.submit {
+    background-color: gold;
+    color:black;
+    padding:10px;
+    border-radius:5px;
+    cursor:pointer;
+    width: 30%;margin-bottom:20px;
+}
+.submit {
+    margin-right:10%;
+}
+.back {
+    margin-left:10%;
+}
+.back:hover {
+    background-color:black;
+    color:white;
+}
+.submit:hover {
+    background-color: white;
+    color: black;
+}
